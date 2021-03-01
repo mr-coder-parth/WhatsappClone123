@@ -1,0 +1,39 @@
+.lastmessage{
+    padding-top: 2px;
+    margin: -20px auto;
+    padding-bottom: 20px;
+}
+.Dp{
+    border: 1px solid rgb(0, 0, 0);
+    background-color:rgb(8, 255, 111);
+}
+.sidebarchart{
+    padding: 8px;
+    height: 60px;
+    border-bottom: 1px solid rgb(247, 247, 247);
+    border-bottom-width: 0.1px;
+}
+.sidebarchart:hover{
+    cursor: pointer;
+    background-color:#ebebeb;
+}
+.dp{
+    padding-left: 10px;
+    padding-top:15px
+}
+.sidebarchatinfo{
+    margin-top:-68px;
+    padding-left: 60px;
+}
+.sidebarchatnew{
+    padding:5px;
+    border-bottom: 1px solid rgb(247, 247, 247);
+    border-bottom-width: 0.1px;
+}
+.newchat{
+    padding-left: 15px;
+}
+.sidebarchatnew:hover{
+    background-color:#ebebeb;
+    cursor: pointer;
+}

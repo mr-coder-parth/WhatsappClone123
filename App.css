@@ -1,0 +1,20 @@
+.App{
+  background-color: #dadbd3;
+  height: 100vh;
+  display: grid;
+}
+.appbody{
+  display: flex;
+  width: 90vw;
+  border-radius: 10px;
+  margin: 2% auto;
+  height: 90vh;
+  box-shadow: 9px 9px 51px 0px rgba(108,108,108,0.75);
+  -webkit-box-shadow: 9px 9px 51px 0px rgba(108,108,108,0.75);
+  -moz-box-shadow: 9px 9px 51px 0px rgba(108,108,108,0.75);
+  background-color: #ededed;
+  box-shadow: -1px 4px 20px -6px rgb(0,0,0,0,2);
+}
+::selection{
+  background-color: deepskyblue;
+}

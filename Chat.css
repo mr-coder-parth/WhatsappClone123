@@ -1,0 +1,96 @@
+.Chat{
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+}
+.usrDp{
+    border: 1px solid rgb(0, 0, 0);
+    background-color:rgb(8, 255, 111);
+}
+.lastseen{
+    margin-top: -20px;
+}
+.chatheaderinfo{
+    margin-top:-60px;
+    flex: 1;
+    padding-left: 60px;
+}
+.chatheaderinfo > h3{
+    font-weight: 500;
+}
+.lastseen{
+    color: gray;
+}
+.chatheader{
+    padding-left:40px;
+    margin-top: 15px;
+    width: 100%;
+    border-bottom: 1px solid rgb(218, 216, 216);
+    height: 72px;
+}
+.chatheaderright{
+    padding-left:550px ;
+    margin-top: -65px;
+}
+.searchchat,
+.morechat,
+.attachchat{
+    color:gray;
+}
+.chatmessage{
+    position:relative;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: #fff;
+}
+.chatreciever{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+.chattimestamp{
+    margin-left: 20px;
+    font-size:xx-small;
+}
+.chatname{
+    position: absolute;
+    top: -15px;
+    font-size: xx-small;
+    font-weight: 800;
+}
+.chatbody{
+    flex:1;
+    overflow:scroll;
+    background-repeat: repeat;
+    background-position: center;
+    padding:30px;
+    background-image: url("http://i.imgur.com/TnNwdvV.png");
+}
+.send{
+    background: none;
+    border: none;
+    display: none;
+}
+.chatfooter1{
+    display:flex;
+    background-color: #f6f6f6f6 ;
+}
+input:required:focus {
+    border: 1px solid lightgreen;
+    outline: none;
+  }
+.usrmsg{
+    width: 48vw;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+.chatfooter1 > form > input{
+    flex: 1;
+}
+.msgform{
+    padding:5px;
+}
